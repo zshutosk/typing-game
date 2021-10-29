@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Typing Game</title>
+</head>
+<body>
+
+
+    <div id = "header">
+        <div>
+        <h2><i class="far fa-keyboard"></i> Typing Game <i class="far fa-keyboard"></i></h2>
+        </div>
+    </div>
+    
+    <div id ="screen">
+
+        <p class ="time-container">
+            Time left: <span id="time" style="color:yellow;"></span>
+        </p>
+
+        <p class ="score-container">
+            Score: <span id="score" style="color:yellow;">0pts</span>
+        </p>  
+
+        <p id="word"></p>
+
+    <img class="screen" src="img/LCD.png">  
+    
+    
+    </div>
+
+
+    <div class="container">
+    
+        <input type ="text" id="text" autocomplete="off"
+        placeholder="Type the sentence here...">
+        <div id="end-game-container" class="end-game-container"></div>
+    </div>
+    
+
+    <div id="settings" class="settings">
+        <form id="settings-form">
+            <div>
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+        </form>
+
+        <button id ="settings-btn" class="settings-btn">
+            <i class="fas fa-cog"></i>
+        </button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
