@@ -104,7 +104,7 @@ localStorage.getItem('difficulty') !== null
   //Game over, shows end screen
   function gameOver() {
      endgameEl.innerHTML = `
-  <h2 style="color:red;">Game Over!</h2>
+  <h2 style="color:red;">Game Over! &nbsp </h2>
   <p>Your final score is <strong> ${score}pts </strong></p>`;
 
     endgameEl.style.display = 'flex';

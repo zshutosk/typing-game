@@ -168,3 +168,28 @@ input {
 .highlight {
     background-color:yellow;
 }
+
+@media only screen and (max-width: 600px) {
+  .screen {
+    width:100%;
+    height:370px;
+}
+
+   input {
+    top:380px;
+  }
+
+  #word{
+    top:60px;
+  }
+
+.settings-btn {
+    bottom:90px;
+    left:10px;
+}
+
+.end-game-container {
+  justify-content:center;
+  top:335px;
+}
+}
