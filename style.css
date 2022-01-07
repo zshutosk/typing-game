@@ -149,6 +149,16 @@ input {
   z-index:1;
 }
 
+.reset{
+  background-color: inherit;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position:relative;
+  top:470px;
+}
+
 .end-game-container h3 {
     margin-bottom:2px;
 }

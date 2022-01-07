@@ -101,6 +101,11 @@ localStorage.getItem('difficulty') !== null
       }
   }
 
+  //Reset Button
+  function resetButton() {
+    window.location.reload("Refresh")
+  }
+
   //Game over, shows end screen
   function gameOver() {
      endgameEl.innerHTML = `
